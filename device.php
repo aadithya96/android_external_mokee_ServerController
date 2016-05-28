@@ -644,6 +644,11 @@ $hardware_info = array(
                      'battery' => '3100 mAh',
                      'display' => '5.2 inch, 1920x1080 pixel(424ppi)',
                      'cpuarch' => 'Arm'),
+    'sambar' => array('cpu' => 'Qualcomm® Snapdragon™ 810')
+                     'ram' => '4GB of LP-DDR4',
+                     'battery' => '3000 mAh',
+                     'display' => '5.2 inch, 2560x1440 pixel(565ppi)',
+                     'cpuarch' => 'Arm 64'),
 );
 
 foreach ($devices_info as $k => $val) {
